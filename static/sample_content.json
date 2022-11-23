@@ -1,0 +1,77 @@
+{
+  "name": "",
+  "contact": {
+    "phone": "",
+    "email": "",
+    "linkedin": "",
+    "location": "",
+    "website": ""
+  },
+  "education": {
+    "header": "Education",
+    "content": [
+      {
+        "duration": "",
+        "institute": "",
+        "degree": "",
+        "major": "",
+        "gpa": ""
+      }
+    ]
+  },
+  "work-experience": {
+    "header": "Work Experience",
+    "content": [
+      {
+        "organisation": "",
+        "position": "",
+        "duration": "",
+        "location": "",
+        "content": []
+      }
+    ]
+  },
+  "internship": {
+    "header": "Part-time/Internship Experience",
+    "content": [
+      {
+        "organisation": "",
+        "position": "",
+        "duration": "",
+        "location": "",
+        "content": []
+      }
+    ]
+  },
+  "skills": {
+    "header": "Technical Skills",
+    "content": [
+      {
+        "name": "Languages:",
+        "list": []
+      },
+      {
+        "name": "Tools and Frameworks:",
+        "list": []
+      },
+      {
+        "name": "Courses:",
+        "list": []
+      }
+    ]
+  },
+  "projects": {
+    "header": "Projects",
+    "content": [
+      {
+        "name": "",
+        "tech": "",
+        "content": []
+      }
+    ]
+  },
+  "other": {
+    "header": "Other Achievements",
+    "content": []
+  }
+}

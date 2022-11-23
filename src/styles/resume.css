@@ -1,0 +1,166 @@
+body {
+  font-family: "Neue Haas Unica W1G";
+  font-weight: 400;
+  font-size: 9pt;
+}
+
+strong {
+  font-family: "Neue Haas Unica W1G";
+  /* font-weight: 400; */
+  font-weight: strong;
+}
+
+.resume {
+  padding: 10pt 15pt 10pt 15pt;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.title,
+.name {
+  font-family: "Helvetica";
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+.contact {
+  font-size: 8pt;
+  color: #444;
+}
+
+.resume-section {
+  margin-bottom: 2px;
+}
+
+.section-header {
+  font-weight: 500;
+  font-size: 12pt;
+  border-width: 1px;
+  border-color: #aaa;
+  border-style: none none solid none;
+}
+
+.contact span {
+  margin: 0px 8px;
+}
+
+.icon {
+  margin: 0px 2px;
+}
+
+.section-list {
+  padding: 0px;
+  margin: 8px 0px;
+  list-style: none;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11pt;
+}
+
+table {
+  margin: none;
+  width: 100%;
+}
+
+tr {
+  padding: 0px;
+}
+
+.university {
+  font-weight: 500;
+}
+
+.gpa {
+  text-align: right;
+}
+
+.major,
+.position,
+.location,
+.time,
+.project-tech {
+  font-style: italic;
+}
+
+.location {
+  color: #444;
+}
+
+.job, .project {
+    margin: 2px 0px;
+}
+
+.job-list {
+  list-style: none;
+  margin: 2px;
+  padding: 0px;
+}
+
+.job-details, .project-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  font-size: 10pt;
+}
+
+.job-details > div {
+  width: fit-content;
+}
+
+.org, .project-name {
+  font-weight: 500;
+}
+
+.responsibilities {
+  list-style: circle;
+  padding: 0px 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.last {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.skill {
+    padding: 0px;
+    list-style: none;
+}
+
+.skill-type {
+    font-weight: 500;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.spacer-10 {
+  height: 10px;
+}

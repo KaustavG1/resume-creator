@@ -1,0 +1,88 @@
+{
+  "name": "John Doe",
+  "contact": {
+    "phone": "+91-12345-67890",
+    "numberFormat": "IN",
+    "email": "abc@xyz.com",
+    "linkedin": "test-id",
+    "location": "Test City, IN",
+    "website": ""
+  },
+  "education": {
+    "header": "Education",
+    "content": [
+      {
+        "duration": "MM/YYYY",
+        "institute": "Test institute of Technology",
+        "degree": "B. Tech",
+        "major": "Computer Science Engineering",
+        "gpa": "9.0/10.0"
+      }
+    ]
+  },
+  "work": {
+    "header": "Work Experience",
+    "content": [
+      {
+        "organisation": "Test organisation",
+        "position": "Software Engineer",
+        "duration": "MON YYYY - MON YYYY",
+        "location": "Test City, IN",
+        "content": [
+          "Implemented test project",
+          "Owned frontend for test project"
+        ]
+      }
+    ]
+  },
+  "internship": {
+    "header": "Part-time/Internship Experience",
+    "content": [
+      {
+        "organisation": "Test organisation",
+        "position": "Software Engineering Intern",
+        "duration": "MON YYYY - MON YYYY",
+        "location": "Test City, IN",
+        "content": [
+          "Implemented test project",
+          "Owned frontend for test project"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "header": "Technical Skills",
+    "content": [
+      {
+        "name": "Languages:",
+        "content": "Javascript, Typescript"
+      },
+      {
+        "name": "Tools and Frameworks:",
+        "content": "React.JS, Next.JS"
+      },
+      {
+        "name": "Tools:",
+        "content": "Docker, JIRA, Git"
+      }
+    ]
+  },
+  "projects": {
+    "header": "Projects",
+    "content": [
+      {
+        "name": "Test project",
+        "tech": "HTML, CSS, Javascript, React.JS",
+        "content": [
+          "Implemented test project"
+        ]
+      }
+    ]
+  },
+  "other": {
+    "header": "Other Achievements",
+    "content": [
+      "Received xyz award"
+    ]
+  }
+}
