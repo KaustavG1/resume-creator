@@ -11,6 +11,11 @@
   const getLinkedInElement = (uName) => {
     return `<a href='http://www.linkedin.com/in/${uName}'>linkedin.com/in/${uName}</a>`
   }
+
+  const getWebsite = (site) => {
+    const cleanedSite = site.includes('www') ? site.slice(4) : site
+    return `<a href='http://www.${cleanedSite}'>${site}</a>`
+  }
 </script>
 
 <section class="header">
@@ -22,7 +27,7 @@
     <span><i class="icon fab fa-linkedin"></i>&nbsp;{@html getLinkedInElement(contact.linkedin)}</span>
     <span><i class="icon fas fa-map-marker-alt"></i>&nbsp;{contact.location}</span>
     {#if contact.website}
-      <span><i class="icon fas fa-globe"></i>&nbsp;{contact.website}</span>
+      <span><i class="icon fas fa-globe"></i>&nbsp;{@html getWebsite(contact.website)}</span>
     {/if}
   </div>
 </section>
