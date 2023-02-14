@@ -7,6 +7,7 @@
 	import Header from "../components/Header.svelte"
 	import InternshipList from "../components/InternshipList.svelte"
 	import Other from "../components/Other.svelte"
+  import ProfileSummary from "../components/ProfileSummary.svelte"
 	import ProjectList from "../components/ProjectList.svelte"
 	import SkillList from "../components/SkillList.svelte"
 	import WorkList from "../components/WorkList.svelte"
@@ -18,6 +19,7 @@
   const {
     name,
     contact,
+    profile,
     education,
     work,
     internship,
@@ -28,8 +30,13 @@
 </script>
 
 <section class="sheet resume">
+  <div class="spacer-10"></div>
 	<Header name={name} contact={contact} />
   <div class="spacer"></div>
+  {#if profile}
+    <ProfileSummary header={profile.header} content={profile.content}/>
+    <div class="spacer"></div>
+  {/if}
 	<EducationList header={education.header} content={education.content}/>
   <div class="spacer"></div>
 	<WorkList header={work.header} content={work.content}/>
