@@ -30,7 +30,7 @@
 </script>
 
 <section class="sheet resume">
-  <div class="spacer-10"></div>
+  <div class="spacer"></div>
 	<Header name={name} contact={contact} />
   <div class="spacer"></div>
   {#if profile}
