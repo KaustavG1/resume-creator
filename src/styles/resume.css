@@ -2,6 +2,9 @@ body {
   font-family: "Neue Haas Unica W1G";
   font-weight: 400;
   font-size: 9pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 strong {
